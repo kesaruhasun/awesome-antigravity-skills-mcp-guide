@@ -10,11 +10,12 @@ This catalog documents the entire inventory of agent skills, their specific trig
 - [2. Google DeepMind Science Skills](#deepmind-science)
 - [3. Chrome DevTools & Modern Web](#modern-web)
 - [4. Matt Pocock Engineering Skills](#matt-pocock-engineering)
-- [5. Marketing & Growth Skills](#marketing--growth)
-- [6. Flutter & Dart Suite](#flutter--dart)
-- [7. Android Platform CLI](#android-platform)
-- [8. Firebase Suite](#firebase-suite)
-- [9. Gemini API & Antigravity SDK](#gemini--antigravity)
+- [5. Addy Osmani Production Engineering Skills](#addy-osmani-production-engineering)
+- [6. Marketing & Growth Skills](#marketing--growth)
+- [7. Flutter & Dart Suite](#flutter--dart)
+- [8. Android Platform CLI](#android-platform)
+- [9. Firebase Suite](#firebase-suite)
+- [10. Gemini API & Antigravity SDK](#gemini--antigravity)
 
 ---
 
@@ -125,6 +126,41 @@ Disciplined software engineering, architecture stress-testing, and TDD workflows
 | **`wizard`** | Human-in-the-loop interactive bash scripts | Guiding users through manual portal setups, API keys, and migrations |
 | **`setup-pre-commit`** | Configures Husky, lint-staged, Prettier | Automated pre-commit hooks for typechecks, formatting, and tests |
 | **`migrate-to-shoehorn`** | TypeScript test data refactoring | Replaces fragile `as Type` assertions with `@total-typescript/shoehorn` |
+
+---
+
+## Addy Osmani Production Engineering
+
+Production-grade engineering, performance, architecture, and reliability skills created by Addy Osmani (Engineering Director at Google).
+* **Repository:** [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+* **Author:** [Addy Osmani](https://github.com/addyosmani)
+
+| Skill | Category | Primary Function & Focus |
+| :--- | :--- | :--- |
+| **`api-and-interface-design`** | Architecture | Designing clean, ergonomic, extensible REST/GraphQL APIs and TypeScript interfaces |
+| **`browser-testing-with-devtools`** | Quality | Automated browser testing and screenshot verification with Chrome DevTools & Puppeteer |
+| **`ci-cd-and-automation`** | DevOps | GitHub Actions workflows, test pipelines, and continuous deployment automation |
+| **`code-review-and-quality`** | Code Quality | Automated pull request reviews, linter enforcement, and maintainability gates |
+| **`code-simplification`** | Refactoring | Simplifying overly complex abstractions, removing boilerplate, and improving readability |
+| **`context-engineering`** | AI Prompting | Optimizing LLM context windows, instructions formatting, and codebase token efficiency |
+| **`debugging-and-error-recovery`** | Diagnostics | Systematic root-cause debugging, error recovery loops, and diagnostic traces |
+| **`deprecation-and-migration`** | Architecture | Safe API deprecation strategies, backward compatibility, and codebase version migrations |
+| **`documentation-and-adrs`** | Documentation | Authoring Architectural Decision Records (ADRs), API docs, and technical specs |
+| **`doubt-driven-development`** | Reliability | Paranoid engineering: challenging assumptions, discovering hidden flaws, and stress-testing edge cases |
+| **`frontend-ui-engineering`** | Frontend | Modern Web UI design systems (React, Vue, Web Components), layout stability, and CSS architecture |
+| **`git-workflow-and-versioning`** | Version Control | Clean branching models, atomic commits, conventional commit syntax, and interactive rebasing |
+| **`idea-refine`** | Product Design | Translating ambiguous product ideas into structured technical requirements and PRDs |
+| **`incremental-implementation`** | Execution | Splitting massive feature epics into small, testable, atomic pull requests |
+| **`interview-me`** | Planning | Interactive Socratic interview clarifying architecture trade-offs and constraints |
+| **`observability-and-instrumentation`** | DevOps | Setting up OpenTelemetry, structured JSON logging, distributed tracing, and metrics |
+| **`performance-optimization`** | Performance | Web Vitals, JS bundle tree-shaking, memory leaks, rendering bottlenecks, and critical path tuning |
+| **`planning-and-task-breakdown`** | Management | Engineering roadmaps, dependency DAGs, and sequenced implementation tickets |
+| **`security-and-hardening`** | Security | OWASP Top 10 auditing, dependency CVE scanning, authentication hardening, and sanitization |
+| **`shipping-and-launch`** | Release | Pre-flight production checklists, rollout health checks, feature flags, and canary rollouts |
+| **`source-driven-development`** | Code Quality | Grounding implementations strictly in verified primary source docs and code |
+| **`spec-driven-development`** | Architecture | Specification-first engineering: validating requirements before writing code |
+| **`test-driven-development`** | Testing | Test-first Red-Green-Refactor development with unit and integration coverage |
+| **`using-agent-skills`** | Meta-Skill | Discovery, evaluation, and dynamic invocation of specialized agent skills |
 
 ---
 

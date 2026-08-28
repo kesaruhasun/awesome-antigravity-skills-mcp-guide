@@ -38,10 +38,11 @@ curl -fsSL https://raw.githubusercontent.com/kesaruhasun/awesome-antigravity-ski
   - [2. Google DeepMind Science & Bio-Informatics](#2-google-deepmind-science--bio-informatics)
   - [3. Modern Web & Chrome DevTools Engineering](#3-modern-web--chrome-devtools-engineering)
   - [4. Software Architecture & Engineering Craft (Matt Pocock Skills)](#4-software-architecture--engineering-craft-matt-pocock-skills)
-  - [5. Growth, SEO & Conversion Engineering (Marketing Skills)](#5-growth-seo--conversion-engineering-marketing-skills)
-  - [6. Mobile & Cross-Platform (Flutter & Android)](#6-mobile--cross-platform-flutter--android)
-  - [7. Fullstack Firebase Suite](#7-fullstack-firebase-suite)
-  - [8. Gemini Multimodal & Antigravity SDK](#8-gemini-multimodal--antigravity-sdk)
+  - [5. Production Engineering & Web Architecture (Addy Osmani Skills)](#5-production-engineering--web-architecture-addy-osmani-skills)
+  - [6. Growth, SEO & Conversion Engineering (Marketing Skills)](#6-growth-seo--conversion-engineering-marketing-skills)
+  - [7. Mobile & Cross-Platform (Flutter & Android)](#7-mobile--cross-platform-flutter--android)
+  - [8. Fullstack Firebase Suite](#8-fullstack-firebase-suite)
+  - [9. Gemini Multimodal & Antigravity SDK](#9-gemini-multimodal--antigravity-sdk)
 - [🔌 Model Context Protocol (MCP) Servers Directory](#-model-context-protocol-mcp-servers-directory)
   - [Installed & Configured MCP Servers](#installed--configured-mcp-servers)
   - [Ready-to-Use `mcp_config.json` Template](#ready-to-use-mcp_configjson-template)
@@ -74,8 +75,9 @@ graph TD
     B --> B2[DeepMind Science Skills]
     B --> B3[Chrome DevTools & Modern Web]
     B --> B4[Matt Pocock Engineering Workflows]
-    B --> B5[Corey Haines Marketing & SEO]
-    B --> B6[Flutter & Android SDKs]
+    B --> B5[Addy Osmani Production Engineering]
+    B --> B6[Corey Haines Marketing & SEO]
+    B --> B7[Flutter & Android SDKs]
     
     C --> C1[AlloyDB / Cloud SQL / Spanner]
     C --> C2[Composio SaaS Connectors]
@@ -171,7 +173,26 @@ Agent skills follow the open [Agent Skills Specification](https://agentskills.io
 
 ---
 
-### 5. Growth, SEO & Conversion Engineering (Marketing Skills)
+### 5. Production Engineering & Web Architecture (Addy Osmani Skills)
+*Production-grade engineering, performance, architecture, and reliability skills created by Addy Osmani (Engineering Director at Google).*
+* **Repository:** [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+* **Author:** [Addy Osmani](https://github.com/addyosmani)
+
+| Skill Name | Category | Primary Function & Focus |
+| :--- | :--- | :--- |
+| [`performance-optimization`](skills-catalog.md#addy-osmani-production-engineering) | Performance | Web Vitals, JS bundle tree-shaking, memory leaks, critical rendering path |
+| [`api-and-interface-design`](skills-catalog.md#addy-osmani-production-engineering) | Architecture | Designing clean, ergonomic, extensible APIs and TypeScript interfaces |
+| [`browser-testing-with-devtools`](skills-catalog.md#addy-osmani-production-engineering) | Quality | Automated browser testing and screenshot verification with Chrome DevTools |
+| [`code-simplification`](skills-catalog.md#addy-osmani-production-engineering) | Refactoring | Simplifying overly complex abstractions and eliminating technical debt |
+| [`context-engineering`](skills-catalog.md#addy-osmani-production-engineering) | Prompting | Optimizing LLM context windows, instructions formatting, and token efficiency |
+| [`doubt-driven-development`](skills-catalog.md#addy-osmani-production-engineering) | Reliability | Challenging assumptions, discovering hidden flaws, and stress-testing edge cases |
+| [`security-and-hardening`](skills-catalog.md#addy-osmani-production-engineering) | Security | OWASP Top 10 auditing, dependency CVE scanning, and input sanitization |
+| [`spec-driven-development`](skills-catalog.md#addy-osmani-production-engineering) | Architecture | Specification-first engineering: validating requirements before writing code |
+| [`shipping-and-launch`](skills-catalog.md#addy-osmani-production-engineering) | Release | Pre-flight production checklists, rollout health checks, and canary deployments |
+
+---
+
+### 6. Growth, SEO & Conversion Engineering (Marketing Skills)
 *50+ technical growth, analytics, programmatic SEO, and conversion optimization skills for developers and founders.*
 * **Repository:** [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 * **Website:** [marketing-skills.com](https://marketing-skills.com)
@@ -188,7 +209,7 @@ Agent skills follow the open [Agent Skills Specification](https://agentskills.io
 
 ---
 
-### 6. Mobile & Cross-Platform (Flutter & Android)
+### 7. Mobile & Cross-Platform (Flutter & Android)
 *End-to-end tooling for Dart, Flutter UI, Native C/C++ FFI interop, and Android emulator/device management.*
 * **Flutter Architecture & UI:** `flutter-apply-architecture-best-practices`, `flutter-build-responsive-layout`, `flutter-add-widget-preview`, `flutter-fix-layout-issues`.
 * **Testing & Quality:** `flutter-add-widget-test`, `flutter-add-integration-test`, `dart-add-unit-test`, `dart-generate-test-mocks`, `dart-collect-coverage`, `dart-run-static-analysis`.
@@ -197,12 +218,12 @@ Agent skills follow the open [Agent Skills Specification](https://agentskills.io
 
 ---
 
-### 7. Fullstack Firebase Suite
+### 8. Fullstack Firebase Suite
 * **Included Skills:** `firebase-firestore`, `firebase-data-connect` (PostgreSQL), `firebase-auth-basics`, `firebase-app-hosting-basics` (Next.js/Angular SSR), `firebase-hosting-basics`, `firebase-crashlytics`, `firebase-remote-config-basics`, `firebase-security-rules-auditor`, `firebase-ai-logic-basics`, `xcode-project-setup`.
 
 ---
 
-### 8. Gemini Multimodal & Antigravity SDK
+### 9. Gemini Multimodal & Antigravity SDK
 * **`google-antigravity-sdk`:** Programmatic construction of multi-agent workflows, subagents, and tools.
 * **`gemini-interactions-api`:** Multi-turn conversational sessions with function calling and structured outputs.
 * **`gemini-live-api-dev`:** Bidirectional audio/video streaming via WebSocket protocols.

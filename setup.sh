@@ -59,6 +59,7 @@ fi
 declare -A REPOS=(
     ["science"]="https://github.com/google-deepmind/science-skills.git"
     ["modern-web-guidance-plugin"]="https://github.com/GoogleChrome/modern-web-guidance.git"
+    ["addyosmani-agent-skills"]="https://github.com/addyosmani/agent-skills.git"
     ["mattpocock-skills"]="https://github.com/mattpocock/skills.git"
     ["marketingskills"]="https://github.com/coreyhaines31/marketingskills.git"
 )
