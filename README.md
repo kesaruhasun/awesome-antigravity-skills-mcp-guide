@@ -2,17 +2,37 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Model Context Protocol](https://img.shields.io/badge/MCP-Protocol%20Compatible-blue.svg)](https://modelcontextprotocol.io/)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-180%2B%20Loaded-green.svg)](https://agentskills.io/)
 [![Google Gemini API](https://img.shields.io/badge/Gemini-2.0%20%2F%203.0%20Ready-orange.svg)](https://ai.google.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> A curated, battle-tested directory of **Google Antigravity (AGY)** agent skills, official **Model Context Protocol (MCP)** servers, **Free Cloud VPS hosting** opportunities (Oracle, GCP, AWS), and the **GitHub Student Developer Pack** value guide.
+> A curated, battle-tested directory of **Google Antigravity (AGY)** agent skills, official **Model Context Protocol (MCP)** servers, **Free Cloud VPS hosting** opportunities (Oracle 24GB ARM, GCP, AWS), and the **GitHub Student Developer Pack** value playbook.
+
+---
+
+## ⚡ 1-Click / 1-Prompt Quick Install
+
+### Option A: The 1-Prompt Agent Installer 🤖
+If you are using **Google Antigravity**, **Claude Code**, **Cursor**, **Codex**, or any AI coding assistant, simply copy and paste this single prompt to your agent:
+
+```markdown
+Please inspect the repository at https://github.com/kesaruhasun/awesome-antigravity-skills-mcp-guide and automatically install all 180+ Agent Skills into my local agent skills directory and configure the Model Context Protocol (MCP) servers in my mcp_config.json by running its automated setup script.
+```
+
+### Option B: The 1-Liner Terminal Install 💻
+Run this single command in your terminal (macOS / Linux):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/kesaruhasun/awesome-antigravity-skills-mcp-guide/main/setup.sh | bash
+```
 
 ---
 
 ## 📑 Table of Contents
 
 - [🌟 Overview](#-overview)
+- [⚡ Quick Install Guide](#-1-click--1-prompt-quick-install)
 - [🧠 Antigravity & Agent Skills Catalog](#-antigravity--agent-skills-catalog)
   - [1. Google Cloud Data & Analytics (Data Agent Kit)](#1-google-cloud-data--analytics-data-agent-kit)
   - [2. Google DeepMind Science & Bio-Informatics](#2-google-deepmind-science--bio-informatics)
@@ -33,7 +53,6 @@
 - [🎓 GitHub Student Developer Pack: The Complete Playbook](#-github-student-developer-pack-the-complete-playbook)
   - [Top Perks & Free Credits](#top-perks--free-credits)
   - [How to Claim & Get Approved](#how-to-claim--get-approved)
-- [🛠️ Quick Installation & Setup Guide](#️-quick-installation--setup-guide)
 - [🤝 Contributing & Community](#-contributing--community)
 - [📜 License](#-license)
 
@@ -171,9 +190,6 @@ Agent skills follow the open [Agent Skills Specification](https://agentskills.io
 
 ### 6. Mobile & Cross-Platform (Flutter & Android)
 *End-to-end tooling for Dart, Flutter UI, Native C/C++ FFI interop, and Android emulator/device management.*
-* **Flutter Agent Suite:** Official Google Flutter & Dart Agent Toolkit
-* **Android Plugin:** Android CLI Platform Plugin
-
 * **Flutter Architecture & UI:** `flutter-apply-architecture-best-practices`, `flutter-build-responsive-layout`, `flutter-add-widget-preview`, `flutter-fix-layout-issues`.
 * **Testing & Quality:** `flutter-add-widget-test`, `flutter-add-integration-test`, `dart-add-unit-test`, `dart-generate-test-mocks`, `dart-collect-coverage`, `dart-run-static-analysis`.
 * **Native & Performance:** `dart-setup-ffi-assets`, `dart-use-ffigen`, `dart-build-cli-app`, `dart-resolve-package-conflicts`.
@@ -182,7 +198,6 @@ Agent skills follow the open [Agent Skills Specification](https://agentskills.io
 ---
 
 ### 7. Fullstack Firebase Suite
-*Cloud backend and real-time database tooling.*
 * **Included Skills:** `firebase-firestore`, `firebase-data-connect` (PostgreSQL), `firebase-auth-basics`, `firebase-app-hosting-basics` (Next.js/Angular SSR), `firebase-hosting-basics`, `firebase-crashlytics`, `firebase-remote-config-basics`, `firebase-security-rules-auditor`, `firebase-ai-logic-basics`, `xcode-project-setup`.
 
 ---
@@ -381,37 +396,6 @@ If you are a student (high school, college, or university), the **GitHub Student
 5. **Approval Tip:** Ensure 2FA is enabled on your GitHub profile and that your billing name matches your student ID.
 
 👉 **See the complete step-by-step redemption guide in [`github-student-pack.md`](github-student-pack.md)**.
-
----
-
-## 🛠️ Quick Installation & Setup Guide
-
-### Installing Skills into your Coding Agent
-
-Skills can be installed directly into your agent environment using the `skills.sh` CLI or by cloning into `.agents/skills/` or `~/.gemini/config/skills/`:
-
-```bash
-# Install DeepMind Science Skills
-npx skills-cli add google-deepmind/science-skills
-
-# Install Chrome Modern Web Guidance
-npx skills-cli add GoogleChrome/modern-web-guidance
-
-# Install Matt Pocock Engineering Skills
-npx skills-cli add mattpocock/skills
-
-# Install Marketing & SEO Skills
-npx skills-cli add coreyhaines31/marketingskills
-```
-
-### Testing MCP Servers Locally
-
-To verify standard stdio MCP servers (like Mobile MCP):
-
-```bash
-# Run Mobile MCP Inspector
-npx @modelcontextprotocol/inspector npx @mobilenext/mobile-mcp@latest
-```
 
 ---
 
