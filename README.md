@@ -236,6 +236,8 @@ Agent skills follow the open [Agent Skills Specification](https://agentskills.io
 
 The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open standard that enables AI models to securely interact with local developer tools, live databases, and external cloud services.
 
+An optional application-testing server is documented in the [Agent QA configuration guide](mcp-servers.md#agent-qa-application-testing). It supports test authoring, run inspection, and failure triage through MCP.
+
 ### Installed & Configured MCP Servers
 
 ```
