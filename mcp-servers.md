@@ -131,6 +131,37 @@ Place this configuration in `~/.gemini/config/mcp_config.json` (or your agent's 
 
 ---
 
+## Agent QA application testing
+
+[Agent QA](https://github.com/vostride/agent-qa) provides MCP tools for natural-language web, Android, and iOS application testing, with execution memory and a results dashboard.
+
+- **Transport:** Local subprocess over stdio. The dashboard also offers Streamable HTTP; see the [official MCP guide](https://vostride.com/docs/agent-qa/mcp).
+- **Runtime for this configuration:** Node.js 24 or newer and npm.
+- **Install:** In the intended test workspace, run `npm install -D agent-qa@0.1.21` after approving the installation.
+
+Use the workspace as the MCP subprocess working directory and merge this optional entry into the client's `mcp_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "agent-qa": {
+      "command": "npx",
+      "args": [
+        "--no-install",
+        "agent-qa@0.1.21",
+        "mcp"
+      ]
+    }
+  }
+}
+```
+
+The `--no-install` flag avoids an implicit package installation. Verify local discovery with `agent_qa_discover` and schema tools. For authoring, test runs, artifacts, and triage, follow the [quickstart](https://vostride.com/docs/agent-qa/quickstart), start `npx --no-install agent-qa@0.1.21 dashboard --port 3470`, and pass `dashboardUrl: "http://localhost:3470"` to dashboard-backed stdio calls. Model configuration and browser or mobile runtimes are also needed to execute application tests.
+
+Agent QA is source-available under [FSL-1.1-ALv2](https://github.com/vostride/agent-qa/blob/main/LICENSE.md), with no software fee for permitted use; configured providers may charge separately. Keep provider credentials out of shared MCP files. This optional configuration is not installed by this repository's `setup.sh`.
+
+---
+
 ## 🔒 Security & Best Practices
 
 1. **Authentication:** Remote Google Cloud MCP servers authenticate automatically using Google Application Default Credentials (`gcloud auth application-default login`).
