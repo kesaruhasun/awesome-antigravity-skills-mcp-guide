@@ -229,6 +229,7 @@ Agent skills follow the open [Agent Skills Specification](https://agentskills.io
 * **`gemini-live-api-dev`:** Bidirectional audio/video streaming via WebSocket protocols.
 * **`gemini-omni-flash-api`:** Video synthesis, scene transitions, and image-to-video editing.
 * **`google_maps_platform`:** Maps JavaScript, Places API, Directions, Photorealistic 3D Maps, and Geocoding SDKs.
+* **`antigravity-skill-porter`:** Import, convert, and optimize external Claude Code / Cursor skills into native Google Antigravity multi-agent plugins ([Pranav-Nexus/antigravity-skill-porter](https://github.com/Pranav-Nexus/antigravity-skill-porter)).
 
 ---
 
