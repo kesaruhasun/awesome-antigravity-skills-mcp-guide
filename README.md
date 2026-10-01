@@ -273,6 +273,10 @@ The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open 
 9. **`whatsapp`** (`uv run whatsapp-mcp-server`)
    - Real-time WhatsApp communication automation: chat listing, secure message sending, file/audio uploads, reactions, and media downloading via local bridge.
 
+### Additional local MCP servers
+
+* [**Hyperconsciousness (`hc`)**](https://github.com/louis030195/hyperconsciousness) - Developer-alpha Rust knowledge store with encrypted, append-only records and local stdio MCP access through scoped, expiring grants. See the [configuration example](mcp-servers.md#6-hyperconsciousness-hc).
+
 👉 **See detailed server configs and usage in [`mcp-servers.md`](mcp-servers.md)**.
 
 ### Ready-to-Use `mcp_config.json` Template

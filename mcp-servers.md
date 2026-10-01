@@ -56,6 +56,25 @@ Connects coding agents to over 100 enterprise and consumer SaaS tools.
 Enables secure, agentic messaging and notifications via a localized WhatsApp bridge.
 * **Capabilities:** Sending chat messages, sending media attachments (images, PDFs), monitoring incoming chats, adding reactions, downloading received media.
 
+### 6. Hyperconsciousness (`hc`)
+
+[Hyperconsciousness](https://github.com/louis030195/hyperconsciousness) is an MIT-licensed, developer-alpha Rust knowledge store for humans and agents. Its local stdio MCP server exposes encrypted, append-only records through scoped, expiring grants, with tools for search and recall.
+
+Follow the official [source installation](https://github.com/louis030195/hyperconsciousness#install-from-source), [isolated demo store](https://github.com/louis030195/hyperconsciousness#try-an-isolated-store) and [limited-access grant](https://github.com/louis030195/hyperconsciousness#give-an-agent-limited-access) instructions first. Replace the placeholders below with the executable path, store path and grant ID from that setup:
+
+```json
+{
+  "mcpServers": {
+    "hc": {
+      "command": "/absolute/path/to/hc",
+      "args": ["mcp", "--as", "<grant-id>", "--dir", "/absolute/path/to/hc-demo"]
+    }
+  }
+}
+```
+
+The documented demo grant is read-only and expires after one day. Grants limit server responses; they do not sandbox a process with access to the owner's files or keys. Hosted model providers can see returned plaintext. APIs may change during the alpha, and no independent security audit is claimed. See the project's [security limits](https://github.com/louis030195/hyperconsciousness/blob/main/docs/CONSTRAINTS.md).
+
 ---
 
 ## ⚙️ Complete `mcp_config.json` Template
