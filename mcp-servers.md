@@ -20,6 +20,24 @@ The [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) provides an
 
 ---
 
+## Optional local MCP server: Agent Payment Node
+
+[Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) provides a local CLI and stdio MCP payment runtime for AI agents on macOS Apple Silicon with Node 24. Signing requires foreground owner approval; MCP never approves payments. Software is MIT licensed; network and third-party fees may apply.
+
+Install with `brew install nuanu-ai/tap/apn`, then launch with `apn mcp serve`. This is an optional directory entry, separate from the stack's preconfigured inventory.
+
+```json
+{
+  "mcpServers": {
+    "apn": {"command": "apn", "args": ["mcp", "serve"]}
+  }
+}
+```
+
+Configuration example for `mcp_config.json`; actual MCP initialize, tools/list and `apn_version` checked with a local protocol client. Antigravity GUI compatibility was not separately tested.
+
+---
+
 ## 🛠️ Detailed Server Breakdown & Capabilities
 
 ### 1. `google-developer-knowledge`
